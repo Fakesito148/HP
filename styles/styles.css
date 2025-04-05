@@ -3,8 +3,12 @@ body{
     font-family: "Roboto Condensed", sans-serif;
     color: white;
 
+    overflow-y: scroll;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
 .nav-bar{
     display: flex;
     align-items: center;
